@@ -57,10 +57,10 @@ Right now we have two set of battery, a 9V battery to power arduino board and le
 
 * more changes for the schedule class
 
-	*change the task function to **void (*pTask)(int);**, ie, add a int parameter to the function, this parameter can be an integer or a pointer to a structure. also add the parameter into the **task** structure, this way, I can schedule multiple similar tasks by using one single function task function with parameters 
+	* change the task function to **void (*pTask)(int);**, ie, add a int parameter to the function, this parameter can be an integer or a pointer to a structure. also add the parameter into the **task** structure, this way, I can schedule multiple similar tasks by using one single function task function with parameters 
 
-	*add a tm / counter in the Sch class, use it to replace timer job and mills function. I tried but cannot get it to work
+	* add a tm / counter in the Sch class, use it to replace timer job and mills function. I tried but cannot get it to work
 
-	*optional choose which timer to use, time0, to timer5
+	* optional choose which timer to use, time0, to timer5
 
-	*Add an enable/disable function to pause the task, right now I use the one time task to blink the eye lid, so every time I have to recreate a one time job for this, would be better to have a persistent job but pause it.
+	* Add an enable/disable function to pause the task, right now I use the one time task to blink the eye lid, so every time I have to recreate a one time job for this, would be better to have a persistent job but pause it.
