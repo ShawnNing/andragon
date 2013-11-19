@@ -2,7 +2,7 @@
 
 We built a dragon for the Christmas parade 2013, it is quite a big one around 7,8 meters, with a head driven by 3 servos and 4 leds, which are controlled by an Arduion processor.
 
-![alt tag](https://raw.github.com/ShawnNing/andragon/master/media/IMG_20131112_144649.jpg)
+![alt tag](https://raw.github.com/ShawnNing/andragon/master/media/IMG_20131112_144617.jpg)
 
 ##Actions:
 
