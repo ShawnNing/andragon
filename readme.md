@@ -2,7 +2,7 @@
 
 We built a dragon for the Christmas parade 2013, it is quite a big one around 7,8 meters, with a head driven by 3 servos and 4 leds, which are controlled by an Arduion processor.
 
-![alt tag](https://raw.github.com/zxning/andragon/master/media/IMG_20131112_144617.jpg)
+![alt tag](https://raw.github.com/ShawnNing/andragon/master/media/IMG_20131112_144649.jpg)
 
 ##Actions:
 
@@ -19,6 +19,7 @@ We built a dragon for the Christmas parade 2013, it is quite a big one around 7,
 * **connectors.pdf** connectors drawing in pdf format
 * **dragon/dragon.ico** the source file
 * **dragon/schedule.*** the source file for scheduler
+* **media/*** some pictures and videos
 
 ##Scheduler:
 Starting Arduino programing is quite easy, but very soon you will realize that once the logic get more complicated, it is hard to control those leds and servos in the **loop** function, a scheduler is required.
